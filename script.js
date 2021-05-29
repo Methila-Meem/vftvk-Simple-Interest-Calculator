@@ -9,7 +9,7 @@ function compute()
     //add validation for principal input and alert if not positive.
     if(principal<=0){
         alert("Enter a positive number.");
-        principal.focus;
+        principal.focus();
         return false;
     }
     else{
